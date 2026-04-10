@@ -24,26 +24,28 @@
             <p id="profile-btn"> Profile</p>"
             <p id="help-btn">Help</p>
         </div>
-        <input type="text" id="search"
+        <input type="text" id="search-input"
         placeholder="="search food products...">
 
         <div id="loading"
         class="hidden">Loading...</div>
-        <div id="limit-message" class="hidden"
+        <div id="limit-message" class="hidden limit-message">
         style="color:red; text-align: center;
         margin-top: 20px;">
         APL rate limit reached. Please try again later.</div>"
 
         <h2 class="section-title">All Food</h2>
-        <div id="product-list"></div>
+        <div id="product-list">
+<p>Search products to display resuits</p>
+</div>
         <div id="scroll-anchor" style="height: 20px;"></div>
 
-        <button id="compare-btn">Compare Selected products</button>
+        <button id="compare-btn"type="button">Compare Selected products</button>
 
         <div id="product-details" class="hidden">
             <h2>Product Details</h2>
 
-            <img id="detail-img" src="" ait="">
+            <img id="detail-img" src="" ait="product Image">
 
             <h3 id="detail-name"></h3>
             <p id="detail-brand"></p>
